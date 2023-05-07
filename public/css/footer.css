@@ -1,0 +1,170 @@
+footer{
+color: #171c24;
+    position: relative;
+    background:#1d212b ;
+    /*padding-top: 10%;*/
+
+}
+footer p ,footer h5 ,footer i,footer a ,footer div ,footer span {
+    color: #171c24;
+    text-decoration: none;
+}
+footer h5{
+    font-weight: bolder;
+    color: #acabab;
+}
+footer ul li a , p{
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.5s linear;
+}
+footer p i{
+    padding-left: 3px;
+    color: #171c24;
+}
+footer ul li{
+    padding-top: 4px;
+}
+footer ul li:not(.icons):hover{
+    background: #ddd;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+.mask
+{
+    background:rgba(255,255,255,0.24) ;
+    padding-top: 10%;
+}
+footer ul li:not(.icons):hover a{
+    color: #171c24;
+    padding-right: 6px;
+}
+footer ul li h5 span:hover{
+    font-size:20px;
+    transition: 0.5s linear;
+    background: #f3f3f3;
+}
+footer ul #contact:hover{
+    background: #f3f3f3;
+}
+
+footer
+.submit-news{
+    color: #f4f4f4;
+    background: #171c24;
+    padding: 3px 20px;
+    font-size:20px;
+    border-radius: 0 0 0 10px;
+    margin: 10px -1px 0 0;
+    width: 25%;
+    transition: 0.4s all;
+
+}
+footer .submit-news:hover{
+    background: #fff;
+    border:1px solid #171c24;
+}
+footer #news-input{
+    font-size: 15px;
+    border: none!important;
+    margin-left: -1px;
+    outline: #171c24;
+    margin-top: 10px;
+    width:75%;
+}
+footer #news-input:focus{
+    outline: #171c24!important;
+    border: #171c24!important;
+    box-shadow: 0 0 0 0.1rem rgba(0,0,0,0.4);
+}
+#vdentLogo {
+    width: 89px;
+    height: 55px;
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+#vdentLogo:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#socialMediaI{
+    font-size: 28px;
+    padding: 5px;
+    margin-right: auto;
+    color: #acabab;
+}
+#socialMediaI:hover{
+    color: #171c24;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+@media (max-width: 998px) {
+    footer .submit-news{
+        font-size: 17px;
+    }
+    footer #news-input{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 412px) {
+    #vdentLogo {
+        width: 80px;
+        height: 48px;
+    }
+}
+@media (max-width: 1050px) and (min-width: 760px) {
+    footer{
+        padding-top: 13%;
+    }
+}
+@media (max-width: 400px) {
+ footer #contact{
+     padding: 0.5rem !important;
+ }
+    footer #contact span{
+        font-size: 15px;
+    }
+    #socialMediaI{
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+.custom-shape-divider-top-1630991392 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1630991392 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 96px;
+    background: rgba(255,255,255,0.1);
+}
+
+.custom-shape-divider-top-1630991392
+{
+    background: rgba(255,255,255,0.24);
+}
+.shape-fill {
+    fill: #1d212b;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1630991392 svg {
+        width: calc(100% + 1.3px);
+        height: 35px;
+    }
+}

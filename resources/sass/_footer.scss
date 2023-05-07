@@ -1,0 +1,69 @@
+@import "vdentVariables";
+$blackColor : #171c24;
+$blueColor : #266891;
+$whiteColor : #fff;
+footer {
+    .aos-div {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: 0.5s all ease-in-out;
+    }
+        .aos-div.appear {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+
+}
+.modal{
+    color: $blackColor;
+    .modal-header span{
+        color: $blueColor;
+    }
+    .modal-body {
+        p{
+            color: $blackColor;
+        }
+        h5{
+            color: $blackColor;
+        }
+        .form-check-inline{
+            label{color: $blackColor;
+                padding-right: 3px;
+            }
+            input{color: $blueColor;
+                }
+        }
+    }
+    textarea {
+        &:focus {
+            outline: #171c24 !important;
+            border: #171c24 !important;
+            box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.4);
+        }
+    }
+    .modal-footer{
+        #closeBtModal{
+            color: $blueColor;
+            &:hover{
+                border:1px solid $blueColor;
+                box-shadow: 0 0 0 0.1rem rgba(38, 104, 145, 1);
+                color: $blackColor;
+            }
+        }
+        #sendBtModal{
+            background: $blueColor;
+            color: $whiteColor;
+        }
+    }
+
+}
+* {
+        textarea {
+            &:focus {
+                outline: #171c24 !important;
+                border: #171c24 !important;
+                box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.4);
+            }
+        }
+
+}
